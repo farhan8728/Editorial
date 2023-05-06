@@ -203,7 +203,7 @@ a{
     height: 33vh;
 }
 .second_add{
-    width: 50%;
+    width: 80%;
     height: 20vh;
     border-radius: 5px;
     display: block;
@@ -257,6 +257,30 @@ a{
     padding-top: 5px;
 }
 
+
+
+
+
+
+
+
+.lifestyle_border{
+    height: 3px;
+    width: 80%;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.lifestyle{
+    font-weight: 700;
+    
+}
+
+.lifestyle_more{
+    color: red;
+    font-weight: 700;
+}
+
 @media screen and (max-width:767px) {
     .header_first_part_icons {
         display: none;
@@ -296,6 +320,9 @@ a{
     .second_add{
         width: 80%;
     }
+    .lifestyle_border{
+        width: 35%;
+    }
 }
 
 
@@ -324,6 +351,10 @@ a{
     .card_news{
         width: 100%;
     }
+    .lifestyle_border{
+        width: 59%;
+    }
+    
 }
 
 
@@ -388,5 +419,8 @@ a{
     }
     .second_add{
         height: 25vh;
+    }
+    .lifestyle_border{
+        width: 76%;
     }
 }
